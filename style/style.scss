@@ -122,3 +122,58 @@ main{
         outline: none;
     }
 }
+ 
+// card section part  
+.card-section{
+    margin-top: 50px;
+    
+    .main-card{
+        border-radius: 5px;
+        margin-right: 4px;
+        img{
+            width: 100%;
+        }
+       .card-part{
+        margin-top: 20px;
+        padding: 0 30px;
+
+        .icon-star{
+            color: blue;
+            font-size: 10px;
+        }
+        p{
+            margin-bottom: 0;
+            font-size: 22px;
+            font-weight: 700;
+             
+        }
+        .price-button{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            button{
+                border: 1px solid  blue;
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+                background: transparent;
+                transition: .4s;
+            }
+            button:hover{
+                background: $background-color;
+                color: white;
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+                overflow: visible;
+                border: none;
+                transition: .4s;
+               
+            }
+        }
+
+       }
+    }
+}
