@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+$font-inter :'Space Grotesk', sans-serif;
+$background-color : var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
+$text-color :   linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+$background-color2 : #ECF0FB;
+$text-color2 : var(--900, #05092B);
+$max-width : 1200px;
+$text-capitalize : capitalize;
+$text-upercase : uppercase;
+$margin-auto : auto;
+$display-flex : flex;
+$content-center : center;
+$items-center : center;
+$p-text-color : rgb(81, 81, 81);
+
+// subnavbar start 
+.navbar-bg-color{
+    background: $background-color2;
+    padding: 20px 0;
+}
+.call li i{
+     color: $text-color;
+     font-size: 16px;
+    
+}
+.call a{
+    color: $text-color2;
+    text-decoration: none;
+    font-size: 18px;
+}
+.mail a{
+    color: $text-color2;
+    text-decoration: none;
+    font-size: 18px;
+}
+.location a{
+    color: $text-color2;
+    text-decoration: none;
+    font-size: 18px;
+}
+// main navbar section
+.navbar-section ul li{
+    a{
+        font-size: 18px;
+        color: $text-color2;
+        text-decoration: none;
+    }
+    span{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+}
+.button button{
+    padding: 12px 30px;
+    border-radius: 5px;
+    background: $background-color;
+    border: none;
+    color: white;
+    outline: none;
+}
+// banner section part 
+.banner-section{
+    background-image: url("/img/banner-img.png");
+    height:  440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    background: var(--900, #05092B);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.banner-content{
+    z-index: 1;
+    color: white;
+}
+.heading-text{
+    font-size: 70px;
+    font-weight: 700;
+}
+// main section part 
+main{
+    margin-top: 120px;
+}
+.search-section{
+    border: 1px solid var(--200, #CCC);;
+    border-radius: 5px;
+    h1{
+        font-size: 32px;
+    }
+}
+.seacrh-input{
+    background: var(--100, #F9F9F9);
+    border: 1px solid #351ee00e;
+    input{
+        border: none;
+        background: transparent;
+        outline: none;
+        padding: 10px 15px;
+    }
+    button{
+        background: $background-color;
+        padding: 10px 15px;
+        color: white;
+        border: none;
+        outline: none;
+    }
+}

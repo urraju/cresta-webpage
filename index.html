@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cresta</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- sass css linkup  -->
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="style/style.scss" />
+    <!-- font awesome linkup  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section part  -->
+    <header>
+      <div class="subNavbar">
+        <nav class="navbar navbar-expand-lg navbar-bg-color">
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ul-nav me-auto gap-4 mb-2 mb-lg-0">
+                <div class="call d-flex gap-3 align-content-center">
+                  <li><i class="fa-solid fa-phone"></i></li>
+                  <a href="phone">(629) 555-0129</a>
+                </div>
+
+                <div class="mail d-flex gap-3">
+                  <li><i class="fa-solid fa-envelope"></i></li>
+                  <a href="phone">info@example.com</a>
+                </div>
+
+                <div class="location d-flex gap-3">
+                  <li><i class="fa-solid fa-location-dot"></i></li>
+                  <a href="phone">1212 new touty,comllla america</a>
+                </div>
+              </ul>
+
+              <!-- social icon section  -->
+              <div class="icon-section d-flex gap-4 fs-5">
+                <span><i class="fa-brands fa-facebook-f"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- main navbar part -->
+      <div class="main-navbar">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container d-flex align-items-center  justify-content-center ">
+            <a class="navbar-brand" href="#">
+              <img src="/img/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse navbar-section"
+              id="navbarSupportedContent"
+            >
+              <ul
+                class="navbar-nav me-auto m-auto align-items-center gap-4 mb-2 "
+              >
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Home</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">About Us</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Services</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Projects</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Blog</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Page</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+
+                <li
+                  class="d-flex align-items-center gap-1 justify-content-center"
+                >
+                  <a href="#">Contact</a>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </li>
+              </ul>
+
+              <div class="button">
+                <button>Book Now</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- banner section part  -->
+      <div class="banner-section">
+        <div
+          class="container banner-content d-flex  flex-column  justify-content-center align-items-center "
+        >
+          <p class="heading-text">Shop</p>
+          <div class="banner-text d-flex justify-content-center gap-4 ">
+            <p>Home</p>
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+            <p>Shop</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section start  -->
+    <main >
+        <!-- search section part  -->
+        <div class="container p-3  search-section d-flex justify-content-md-between align-items-center ">
+            <h1>Find Products</h1>
+            <div class="seacrh-input">
+                <input type="text" placeholder="Product name..">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
