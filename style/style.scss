@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
+ul{
+    padding-left: 0;
+}
 
 $font-inter :'Space Grotesk', sans-serif;
 $background-color : var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
@@ -20,7 +23,7 @@ $margin-auto : auto;
 $display-flex : flex;
 $content-center : center;
 $items-center : center;
-$p-text-color : rgb(81, 81, 81);
+$p-text-color : var(--White, #FFF);
 
 // subnavbar start 
 .navbar-bg-color{
@@ -183,8 +186,104 @@ main{
 
 //  footer section start 
 footer{
+    .container-h{
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     background: $background-color3;
+    
+   
+    flex-direction: column;
+    .buttom-footer{
+        border-top: 1px solid #373737;
+        padding: 20px 0;
+        color: white;
+        opacity: 0.8;
+        font-size: 18px;
+        li{
+            list-style: none;
+        }
+    }
 }
 .footer-section-1{
     color: white;
+    .head-text{
+        margin-bottom: 30px;
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+    }
+    .heading-text{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    .footer-text{
+        .p-lorem{
+            color:  $background-color2;
+        }
+    }
+    .ul-content{
+        
+        li{
+            margin-bottom: 15px;
+            a{
+                text-decoration: none;
+                opacity: 0.8;
+                color: white;
+                 
+            }
+            span{
+                font-size: 10px;
+            }
+        }
+        .last-text{
+            margin-left: 30px;
+            font-size: 18px;
+            opacity: 0.8;
+            list-style: none;
+        }
+       .contact-vio {
+        margin-bottom: 20px;
+        li{
+            list-style: none;
+            color: $background-color2;
+           
+           }
+           a{
+            text-decoration: none;
+            color: $background-color2;
+            opacity: 0.8;
+            margin-top: 10px;
+           }
+       }
+     
+    }
+}
+.icon-section{
+    .social-icon{
+        border: 1px solid rgb(87, 87, 87);
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        transition: .3s;
+
+    }
+    .social-icon:hover{
+        background: $background-color;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+    }
 }
