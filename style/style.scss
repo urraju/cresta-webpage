@@ -185,7 +185,10 @@ main{
 }
 
 //  footer section start 
+ 
 footer{
+    position: relative;
+   
     .container-h{
         height: 600px;
         display: flex;
