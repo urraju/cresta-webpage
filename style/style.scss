@@ -11,6 +11,7 @@ $font-inter :'Space Grotesk', sans-serif;
 $background-color : var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
 $text-color :   linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
 $background-color2 : #ECF0FB;
+$background-color3 : var(--900, #05092B);
 $text-color2 : var(--900, #05092B);
 $max-width : 1200px;
 $text-capitalize : capitalize;
@@ -129,7 +130,8 @@ main{
     
     .main-card{
         border-radius: 5px;
-        margin-right: 4px;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.063);
         img{
             width: 100%;
         }
@@ -149,10 +151,11 @@ main{
         }
         .price-button{
             margin-top: 30px;
+            padding: 0px 0 30px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 30px;
+            
             button{
                 border: 1px solid  blue;
                 height: 40px;
@@ -176,4 +179,12 @@ main{
 
        }
     }
+}
+
+//  footer section start 
+footer{
+    background: $background-color3;
+}
+.footer-section-1{
+    color: white;
 }
